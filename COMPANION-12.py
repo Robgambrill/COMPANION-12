@@ -1,7 +1,7 @@
 # Companion-12.py - Bleep Bloop, I am an abominatio-bot 
-# Run run_first.py prior to running this or your inbox will fill up!
+# Run first_run.py prior to running this or your inbox will fill up!
 # Run as a chron job
-# Portions taken from Cryse-'s code E_book.py (MIT License)
+# Portions taken from  Chris Braun's code make_e_book.py (MIT License)
 # Ver 0.1  Rob Gambrill May 31,2016
 
 import itertools

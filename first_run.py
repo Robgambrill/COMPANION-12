@@ -1,7 +1,7 @@
 # first_run.py
 # Creates file set for
 # Companion-12 - Bleep Bloop, I am an abominatio-bot 
-# Portions taken from Crysed's code make_e_book.py (MIT License)
+# Portions taken from  Chris Braun's code make_e_book.py (MIT License)
 # Rob Gambrill May 31,2016
 
 import itertools
