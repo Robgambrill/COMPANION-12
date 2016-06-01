@@ -1,6 +1,7 @@
 # Companion-12.py - Bleep Bloop, I am an abominatio-bot 
+# Run as a chron job
 # Portions taken from Cryse-'s code E_book.py (MIT License)
-# Rob Gambrill March 31,2016
+# Rob Gambrill May 31,2016
 
 import itertools
 import operator
@@ -24,6 +25,9 @@ USERNAME = '_9MOTHER9HORSE9EYES9'
 USER_AGENT = 'your_scipt_id'
 CLIENT_ID = 'your_client_id'
 CLIENT_SECRET='your_client_secret'
+# Account you want to send post notifications to
+EMAIL_TO = 'some_reddit_user
+'
 fmt = 'MHE_%Y-%m-%d_%H:%M:%S.txt'
 fmt2 = '%Y-%m-%d_%H:%M:%S UCT'
 
@@ -61,6 +65,7 @@ def main():
             else:  # Something unexpected went wrong so reraise the exception.
                 raise
         else:  # No exception, so the file must have been created successfully.
+            client.send_message(EMAIL_TO, mesg_header, text_content )
             print mesg_header 
             print file_name
             with os.fdopen(file_handle,"w") as file_obj:
