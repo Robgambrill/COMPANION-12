@@ -14,7 +14,7 @@ from datetime import datetime
 
 import praw
 
-
+# Name of Author to watch
 USERNAME = '_9MOTHER9HORSE9EYES9'
 
 # Follow API guidelines: https://github.com/reddit/reddit/wiki/API#rules
