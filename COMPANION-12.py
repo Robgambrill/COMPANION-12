@@ -25,8 +25,10 @@ USERNAME = '_9MOTHER9HORSE9EYES9'
 USER_AGENT = 'your_scipt_id'
 CLIENT_ID = 'your_client_id'
 CLIENT_SECRET='your_client_secret'
+
 # Account you want to send post notifications to
 EMAIL_TO = 'some_reddit_user'
+
 # Your Reddit Account info
 MY_USERNAME='my_username'
 MY_PASSORD= 'my_password'
@@ -37,8 +39,6 @@ fmt2 = '%Y-%m-%d_%H:%M:%S UCT'
 
 
 def main():
-    parts = {}
-
     client = praw.Reddit(user_agent=USER_AGENT)
     client.set_oauth_app_info(client_id = CLIENT_ID, client_secret = CLIENT_SECRET, redirect_uri="http://127.0.0.1:65010/authorize_callback")
     #log in for messaging
