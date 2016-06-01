@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+
+# Code credited to KiloTango421, supposed to be public domain
+
  
 USER_AGENT='Put Name Here'
 CLIENT_ID='Put Id Here'
