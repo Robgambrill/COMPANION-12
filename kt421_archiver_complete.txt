@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 
-# Code credited to KiloTango421, supposed to be public domain
+# Code posted to /s/9M9H9E  by KiloTango421
+# License uncertain 
+# I added the oauth stuff back in a generic way and found it works great!
+# R.Gambrill
 
  
 USER_AGENT='Put Name Here'
