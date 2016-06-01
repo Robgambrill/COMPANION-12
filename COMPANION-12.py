@@ -1,7 +1,7 @@
 # Companion-12.py - Bleep Bloop, I am an abominatio-bot 
 # Run as a chron job
 # Portions taken from Cryse-'s code E_book.py (MIT License)
-# Rob Gambrill May 31,2016
+# Ver 0.1  Rob Gambrill May 31,2016
 
 import itertools
 import operator
@@ -26,8 +26,11 @@ USER_AGENT = 'your_scipt_id'
 CLIENT_ID = 'your_client_id'
 CLIENT_SECRET='your_client_secret'
 # Account you want to send post notifications to
-EMAIL_TO = 'some_reddit_user
-'
+EMAIL_TO = 'some_reddit_user'
+# Your Reddit Account info
+MY_USERNAME='my_username'
+MY_PASSORD= 'my_password'
+
 fmt = 'MHE_%Y-%m-%d_%H:%M:%S.txt'
 fmt2 = '%Y-%m-%d_%H:%M:%S UCT'
 
@@ -38,7 +41,8 @@ def main():
 
     client = praw.Reddit(user_agent=USER_AGENT)
     client.set_oauth_app_info(client_id = CLIENT_ID, client_secret = CLIENT_SECRET, redirect_uri="http://127.0.0.1:65010/authorize_callback")
-            
+    #log in for messaging
+    client.login(MY_USERNAME, MY_PASSWORD)
     
     r = client.get_redditor(USERNAME)
     count = 0
