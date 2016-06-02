@@ -1,0 +1,42 @@
+June 2, 2016
+
+
+To use Scripts and Bots with the Reddit API, one must first obtain credentials for your script from Reddit itself. 
+
+To do this, you goto  https://www.reddit.com/prefs/apps, login (if neccesary), and click the button called "Create application".
+
+You will see some that you need to provide some info.
+
+Check the radio button that says "Script".
+
+In the "Redirect uri" field put http://127.0.0.1:65010/authorize_callback 
+
+Now think of a name and put in the field name. Put a description in the description field as well.
+
+Click the "Create App" button.
+
+Now you have a screen with all the information needed to run your script with the Reddit API.
+
+ Under the name of your script, under where is says "Personal Use Script", you will see string of letters and numbers. That is your scripts CLIENT_ID. The name displayed will be your USER_AGENT, and the string next to "Secret" is your CLIENT_SECRET. 
+
+You can go back at any time and look at this information. You will see a box for your script under Developed Applications. You can click edit to view the credentials. There you can also click "delete app" if you are no longer using the script.  
+
+Open the script you wish to run in a text editor (ie, emacs, vim, notepad,etc.).
+
+ Specifically, you want to replace the dummy variables in USER_AGENT, CLIENT_ID and CLIENT_SECRET lines with the information you got above. Usually you can just "cut and paste" this information into those lines. Currently you just delete the dummy placeholders between the single quotes and in their place put the actual information you have recieved.
+
+Currently you also have to change the MY_ USERNAME and MY_USERPASSWORD to your Reddit username and password in COMPAINION-12.py. This requirement is for the deprecated login function and will be removed in the next Version update. A change to the OAUTH2 system has been developed and is currently undergoing internal testing.
+
+When finished, save the file.
+
+Now you should be able to run the scripts in python, if you get authorization errors, you probably have an error on one of those lines you just changed. Make sure the info you provided is between single quotes and that the place holder strings are removed.
+
+
+Also, I am currently working on adding INI files for configuration, that are more user friendly to edit, and allow the scripts to be turned into windows executable (exe) files for distribution.
+
+RG
+
+
+
+
+ 

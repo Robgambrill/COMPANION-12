@@ -27,9 +27,6 @@ USER_AGENT = 'your_scipt_id'
 CLIENT_ID = 'your_client_id'
 CLIENT_SECRET='your_client_secret'
 
-# Account you want to send post notifications to
-EMAIL_TO = 'some_reddit_user'
-
 # Your Reddit Account info
 MY_USERNAME='my_username'
 MY_PASSORD= 'my_password'
@@ -70,7 +67,7 @@ def main():
             else:  # Something unexpected went wrong so reraise the exception.
                 raise
         else:  # No exception, so the file must have been created successfully.
-            client.send_message(EMAIL_TO, mesg_header, text_content )
+            client.send_message(MY_USERNAME, mesg_header, text_content )
             print mesg_header 
             print file_name
             with os.fdopen(file_handle,"w") as file_obj:
