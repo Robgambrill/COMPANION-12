@@ -9,9 +9,9 @@ You will see some that you need to provide some info.
 
 Check the radio button that says "Script".
 
-In the "Redirect uri" field put http://127.0.0.1:65010/authorize_callback 
+In the "Redirect uri" field put  http://127.0.0.1:65010/authorize_callback 
 
-Now think of a name and put in the field name. Put a description in the description field as well.
+Now think of a name and put it in the field "name". Put a short description in the description field as well.
 
 Click the "Create App" button.
 
