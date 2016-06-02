@@ -9,9 +9,9 @@ You will see some that you need to provide some info.
 
 Check the radio button that says "Script".
 
-In the "Redirect uri" field put http://127.0.0.1:65010/authorize_callback 
+In the "Redirect uri" field put  http://127.0.0.1:65010/authorize_callback 
 
-Now think of a name and put in the field name. Put a description in the description field as well.
+Now think of a name and put it in the field "name". Put a short description in the description field as well.
 
 Click the "Create App" button.
 
@@ -29,10 +29,10 @@ Currently you also have to change the MY_ USERNAME and MY_USERPASSWORD to your R
 
 When finished, save the file.
 
-Now you should be able to run the scripts in python, if you get authorization errors, you probably have an error on one of those lines you just changed. Make sure the info you provided is between single quotes and that the place holder strings are removed.
+Now you should be able to run the scripts in python. If you get authorization errors, you probably have an error on one of those lines you just changed. Make sure the info you provided is between single quotes and that the place holder strings are removed.
 
 
-Also, I am currently working on adding INI files for configuration, that are more user friendly to edit, and allow the scripts to be turned into windows executable (exe) files for distribution.
+Also, I am currently working on adding INI files for configuration, they are more user friendly to edit, and allow the scripts to be turned into windows executable (exe) files for distribution.
 
 RG
 
