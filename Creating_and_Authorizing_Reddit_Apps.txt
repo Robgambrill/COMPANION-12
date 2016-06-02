@@ -35,20 +35,12 @@ system has been developed and is currently undergoing internal testing.
 
 When finished, save the file.
 
-<<<<<<< HEAD
-Now you should be able to run the scripts in python, if you get authorization errors, you probably have an error on one of those lines you just changed. Make sure the info you provided is between single quotes and that the place holder strings are removed.
+Now you should be able to run the scripts in python, if you get authorization errors, you probably have an error on one of
+those lines you just changed. Make sure the info you provided is between single quotes and that the place holder strings
+are removed.
 
-
-Also, I am currently working on adding INI files for configuration, that are more user friendly to edit, and allow the scripts to be turned into windows executable (exe) files for distribution.
-=======
-Now you should be able to run the scripts in python. If you get authorization errors, you probably have an error on one of
-those lines you just changed. Make sure the info you provided is between single quotes and that the place holder strings are 
-removed.
-
-
-Also, I am currently working on adding INI files for configuration, they are more user friendly to edit, and allow the scripts 
-to be turned into windows executable (exe) files for distribution.
-
+ Lastly, I am currently working on adding INI files for configuration. Those are more user friendly to edit, and allow the
+scripts to be turned into windows executable (exe) files for distribution.
 
 RG
 
