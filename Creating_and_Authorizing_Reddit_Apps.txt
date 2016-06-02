@@ -5,13 +5,13 @@ To use Scripts and Bots with the Reddit API, one must first obtain credentials f
 
 To do this, you goto  https://www.reddit.com/prefs/apps, login (if neccesary), and click the button called "Create application".
 
-You will see some that you need to provide some info.
+You will see some fields where you need to provide some info.
 
 Check the radio button that says "Script".
 
 In the "Redirect uri" field put http://127.0.0.1:65010/authorize_callback 
 
-Now think of a name and put in the field name. Put a description in the description field as well.
+Now think of a name and put in the field name. Put a description in the description field as well if you like.
 
 Click the "Create App" button.
 
@@ -48,7 +48,7 @@ removed.
 
 Also, I am currently working on adding INI files for configuration, they are more user friendly to edit, and allow the scripts 
 to be turned into windows executable (exe) files for distribution.
->>>>>>> 10c31d9884be4bae51ec9ccc79ba0943b06b71d9
+
 
 RG
 
