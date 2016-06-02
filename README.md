@@ -4,5 +4,5 @@ Some of the scripts are to be run manually, others are suitable for running auto
 
 The name COMPANION-12 is taken from a series of stories being written by redditor _9MOTHER9HORSE9EYES9.
 
-By Default these scripts archive the works of that author, but can be changed to backup your own or any
+By default these scripts archive the works of that author, but can be changed to backup your own or any
 other users posts and comments. Other uses might be Stylometric Analysis, Project Collaboration, etc.
