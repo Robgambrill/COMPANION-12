@@ -1,1 +1,2 @@
+V 0.2 Added INI configuration in python_2.7
 V 0.1 Intial commit
