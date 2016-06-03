@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Code posted to /s/9M9H9E  by KiloTango421
+# Code posted to /s/9M9H9E  by KiloTango421 (THANKS!)
 # License: Public Domain
 # I added the oauth stuff back in a generic way and found it works great!
 # R.Gambrill
