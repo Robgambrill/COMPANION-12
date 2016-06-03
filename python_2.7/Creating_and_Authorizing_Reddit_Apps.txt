@@ -39,7 +39,7 @@ you got above. Usually you can just "cut and paste" this information into those 
 When you are done it should look something like this...
 
 [Credentials]
-USER_AGENT: My_Cool_Script (by /u/Somebody/)		<--The name you made chose above
+USER_AGENT: My_Cool_Script (by /u/Somebody/)		<--The name you chose above
 CLIENT_ID: NM3a5r76be5fjsdkjfdkjds			<--A bunch of random looking stuff
 CLIENT_SECRET: _fjsdlq3484h5jdlu8l  			<--A bunch of random looking stuff  
 
