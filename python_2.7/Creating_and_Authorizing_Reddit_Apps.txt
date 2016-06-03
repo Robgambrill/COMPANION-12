@@ -32,7 +32,8 @@ USER_AGENT:
 CLIENT_ID:
 CLIENT_SECRET:
 
-Specifically, you want to fill out the fields in the [Credentials] section. Add to the  USER_AGENT, CLIENT_ID and CLIENT_SECRET lines with the information
+Specifically, you want to fill out the fields in the [Credentials] section. Add to the
+USER_AGENT, CLIENT_ID and CLIENT_SECRET lines with the information
 you got above. Usually you can just "cut and paste" this information into those lines. 
 
 When you are done it should look something like this...
