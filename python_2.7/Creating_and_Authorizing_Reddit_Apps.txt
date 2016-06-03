@@ -48,7 +48,8 @@ CLIENT_SECRET: _fjsdlq3484h5jdlu8l  			<--A bunch of random looking stuff
 
 When finished, save the file.
 
-Now you should be able to run the scripts in python, if you get authorization errors, you probably have an error on one of those lines you just changed.
+Now you should be able to run the scripts in python, if you get authorization errors, you probably have an error on 
+one of those lines you just changed.
 
 From the command prompt run..
 
