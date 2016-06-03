@@ -29,7 +29,7 @@ CLIENT_SECRET='your_client_secret'
 
 # Your Reddit Account info
 MY_USERNAME='my_username'
-MY_PASSORD= 'my_password'
+MY_PASSWORD= 'my_password'
 
 fmt = 'MHE_%Y-%m-%d_%H:%M:%S.txt'
 fmt2 = '%Y-%m-%d_%H:%M:%S UCT'

@@ -1,0 +1,74 @@
+June 3, 2016
+
+
+To use Scripts and Bots with the Reddit API, one must first obtain credentials for your script from Reddit itself. 
+
+To do this, you goto  https://www.reddit.com/prefs/apps, login (if neccesary), and click the button called "Create application".
+
+You will see some fields where you need to provide some info.
+
+Check the radio button that says "Script".
+
+In the "Redirect uri" field put http://127.0.0.1:65010/authorize_callback 
+
+Now think of a name and type it in the field name. Put a description in the description field as well, if you like.
+
+Click the "Create App" button.
+
+Now you have a screen with all the information needed to run your script with the Reddit API.
+
+Under the name of your script, under where is says "Personal Use Script", you will see string of letters and numbers. That is 
+your scripts CLIENT_ID. The name displayed will be your USER_AGENT, and the string next to "Secret" is your CLIENT_SECRET. 
+
+You can go back at any time and look at this information. You will see a box for your script under Developed Applications. You 
+can click edit to view the credentials. There you can also click "delete app" if you are no longer using the script.  
+
+Open the C-12.ini file in a text editor (ie, emacs, vim, notepad,etc.).
+
+Look for a section that looks like this...
+
+[Credentials]
+USER_AGENT:
+CLIENT_ID:
+CLIENT_SECRET:
+
+Specifically, you want to fill out the fields in the [Credentials] section. Add to the  USER_AGENT, CLIENT_ID and CLIENT_SECRET lines with the information
+you got above. Usually you can just "cut and paste" this information into those lines. 
+
+When you are done it should look something like this...
+
+[Credentials]
+USER_AGENT: My_Cool_Script (by /u/Somebody/)		<--The name you made chose above
+CLIENT_ID: NM3a5r76be5fjsdkjfdkjds			<--A bunch of random looking stuff
+CLIENT_SECRET: _fjsdlq3484h5jdlu8l  			<--A bunch of random looking stuff  
+
+
+
+(Note: The example strings above will not work, I just made them up.)
+
+When finished, save the file.
+
+Now you should be able to run the scripts in python, if you get authorization errors, you probably have an error on one of those lines you just changed.
+
+From the command prompt run..
+
+python first_run.py
+
+... to build up a the file set for the first time.
+
+After that, you may run..
+
+python companion-12.py 
+
+--- either from the command line or as a chron job to check for the latest posts.
+
+
+ Next thing I plan to do is port these scripts to python3 and add a Configuration GUI program to make this easier. It will walk the user through registering the app so you can send yourself a message when a new post arrives. I will then create window executables from the python3 sources.
+
+
+RG
+
+
+
+
+ 
