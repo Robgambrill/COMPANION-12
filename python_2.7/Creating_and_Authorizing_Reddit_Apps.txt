@@ -39,24 +39,43 @@ USER_AGENT:
 CLIENT_ID:
 CLIENT_SECRET:
 
+<<<<<<< HEAD
 Specifically, you want to fill out the fields in the [Credentials] section.
 Add to the USER_AGENT, CLIENT_ID and CLIENT_SECRET lines with the information you got
 above. Usually you can just "cut and paste" this information into those lines. 
+=======
+Specifically, you want to fill out the fields in the [Credentials] section. Add to the
+USER_AGENT, CLIENT_ID and CLIENT_SECRET lines with the information
+you got above. Usually you can just "cut and paste" this information into those lines. 
+>>>>>>> ed1fe1198a0788a508f42b8ee6e7a1cdc8cacf06
 
 When you are done it should look something like this...
 
 [Credentials]
+<<<<<<< HEAD
 USER_AGENT: My_Cool_Script (by /u/Somebody/)	<--The name you made chose above
 CLIENT_ID: NM3a5r76be5fjsdkjfdkjds		<--A bunch of random looking stuff
 CLIENT_SECRET: _fjsdlq3484h5jdlu8l  		<--A bunch of random looking stuff  
+=======
+USER_AGENT: My_Cool_Script (by /u/Somebody/)		<--The name you chose above
+CLIENT_ID: NM3a5r76be5fjsdkjfdkjds			<--A bunch of random looking stuff
+CLIENT_SECRET: _fjsdlq3484h5jdlu8l  			<--A bunch of random looking stuff  
+
+
+>>>>>>> ed1fe1198a0788a508f42b8ee6e7a1cdc8cacf06
 
 (Note: The example strings above will not work, I just made them up.)
 
 
 When finished, save the file.
 
+<<<<<<< HEAD
 Now you should be able to run the scripts in python, if you get authorization errors,
  you probably have an error on one of those lines you just changed.
+=======
+Now you should be able to run the scripts in python, if you get authorization errors, you probably have an error on 
+one of those lines you just changed.
+>>>>>>> ed1fe1198a0788a508f42b8ee6e7a1cdc8cacf06
 
 From the command prompt run..
 
