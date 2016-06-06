@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# This is a script by reddit user /u/kilotango421
+# This is a script by reddit user /u/tangokilo421
 # Public domain
 #
 # A friend was having trouble adding site packages
