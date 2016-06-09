@@ -15,6 +15,7 @@ import itertools
 import operator
 import io
 import os
+import re
 import errno
 import textwrap
 import codecs
@@ -92,15 +93,17 @@ for mention in mentions:
           for index, thing in enumerate(itertools.chain( r.get_comments(limit=1)), start=1):
                last_comment= thing.permalink
                c_time=thing.created_utc
-          postbody= "COMPANION-12: Bleep, Bloop I am an Abominatio-Bot!  \n  Most Recent Post of _9MOTHER9HORSE9EYES9  \n  \n"
+          postbody= "COMPANION-12: Bleep, Bloop, I am an Abominatio-Bot!  \n  Most Recent Post of _9MOTHER9HORSE9EYES9  \n  \n"
 
           if s_time > c_time:
                postbody= postbody + "At " +  datetime.utcfromtimestamp(s_time).strftime(fmt2) +" The Author Submitted:  \n" + last_submission + "  \n"
               
           if c_time > s_time: 
                postbody= postbody + "At " + datetime.utcfromtimestamp(c_time).strftime(fmt2) +" The Author Commented:  \n" + last_comment + "  \n" 
-
-     
+         
+          postbody = re.sub(r"www.reddit.com","np.reddit.com", postbody)     
+          postbody= postbody + "\n  [*All beings of flesh can interface here....*](https://www.reddit.com/r/9M9H9E9/)  \n"
+          print(postbody)
           mention.reply(postbody)
           mention.mark_as_read()  
 
